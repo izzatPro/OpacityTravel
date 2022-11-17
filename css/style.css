@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+header, .view{
+    height: 10044px;
+}
+ /* Video */
+ video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+ }
+ #video::after{
+     position: fixed;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+ }
+ /* End of the Video */
+
+ /* Navbar */
+ .navhover:hover {
+    background: rgba(255, 255,255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: (8.5px);
+    text-shadow: none !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform:scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    z-index: 2;
+ }
+ /* End of Navbar */
+
+ /* Utility */
+ .card{
+    background: rgba(255, 255,255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: (8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+ }
+ /* End of Utility */
