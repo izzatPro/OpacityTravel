@@ -6,7 +6,7 @@
 html,
 body,
 header, .view{
-    height: 10044px;
+    height: 100%;
 }
  /* Video */
  video{
@@ -57,10 +57,21 @@ header, .view{
 
  /* Utility */
  .card{
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(8.5px);
-    -webkit-backdrop-filter: blur(8.5px);
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(8.5px) !important; 
+    -webkit-backdrop-filter: blur(8.5px) !important;
+    border-radius: 10px !important;
  }
  /* End of Utility */
+ .hov:hover{
+    background: #ed9600 !important;
+    color:#fff !important;
+    text-shadow: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    z-index: 2;
+ }
