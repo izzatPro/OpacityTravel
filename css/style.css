@@ -9,6 +9,9 @@ header, .view{
     height: 100%;
 }
  /* Video */
+ body{
+   background-image: url('../pics/background.jpg') ;
+ }
  video{
     position: fixed;
     right: 0;
@@ -40,6 +43,10 @@ header, .view{
     -ms-transform: scale(1.2) !important;
     transform: scale(1.2) !important;
     z-index: 2;
+ }
+ .nav-text{
+   text-transform: uppercase;
+   font-weight: bold;
  }
  .content{
     padding: 16px;

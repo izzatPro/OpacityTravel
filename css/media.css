@@ -1,0 +1,13 @@
+@media(max-width: 991px){
+    .navbar-nav .nav-item{
+        text-align: center;
+    }
+    .navbar-phone{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-phone-item{
+        margin: 0 20px;
+    }
+}
